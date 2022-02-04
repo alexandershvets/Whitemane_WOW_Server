@@ -85,11 +85,11 @@ section{
             display: block;
             width: 100%;
             margin-top: 10px;
-            @include text('Open Sans', 700, #ada183, 18px, 24px);
+            @include text('Open Sans', 700, #d9caab, 18px, 24px);
             text-transform: none;
 
             @media (max-width: 1300px){
-                @include text('Open Sans', 700, #ada183, 16px, 22px);
+                @include text('Open Sans', 700, #d9caab, 16px, 22px);
             }
         }
     }
@@ -117,7 +117,7 @@ section{
         h2{
             color: #f4e9cf;
             span{
-                color: #ada183;
+                color: #d9caab;
             }
         }
 
@@ -139,9 +139,9 @@ section{
         background: url('../images/bg/section_2_bg.jpg') #242017 top center /cover no-repeat;
 
         h2{
-            color: #f0f3d4;
+            color: #f4e9cf;
             span{
-                color: #b5c095;
+                color: #d9caab;
             }
         }
 
@@ -163,9 +163,9 @@ section{
         background: url('../images/bg/section_3_bg.jpg') #020926 top center /cover no-repeat;
 
         h2{
-            color: #d8ebf1;
+            color: #f4e9cf;
             span{
-                color: #acced8;
+                color: #d9caab;
             }
         }
 
@@ -181,17 +181,6 @@ section{
             pointer-events: none;
         }
 
-        // &:before{
-        //     content: '';
-        //     width: 2600px;
-        //     height: 558px;
-        //     position: absolute;
-        //     z-index: 2;
-        //     bottom: -70px;
-        //     left: calc( ( 100% - 2600px ) / 2 );
-        //     background: url('../images/bg/section_3_deco.png') center center no-repeat;
-        //     pointer-events: none;
-        // }
     }
 
     &.info-2{
@@ -201,7 +190,7 @@ section{
         h2{
             color: #f4e9cf;
             span{
-                color: #ada183;
+                color: #d9caab;
             }
         }
 
@@ -241,7 +230,7 @@ section{
         h2{
             color: #f4e9cf;
             span{
-                color: #ada183;
+                color: #9b9174;
             }
         }
 

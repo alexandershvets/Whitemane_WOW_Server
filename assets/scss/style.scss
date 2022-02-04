@@ -163,7 +163,7 @@
     &__info{
         width: 100%;
         padding: 0px calc( ( 100% - 770px ) / 2 );
-        margin-top: 60px;
+        margin-top: 1px;
         position: relative;
         z-index: 1;
 
@@ -177,18 +177,18 @@
 
         &-title{
             width: 100%;
-            @include text('Beaufort', 700, #ffea9e, 56px, 48px);
+            @include text('Beaufort', 700, #ffeb9d, 56px, 48px);
             text-align: center;
             text-transform: uppercase;
             position: relative;
             z-index: 2;
 
             @media (max-width: 1300px){
-                @include text('Beaufort', 700, #ffea9e, 42px, 42px);
+                @include text('Beaufort', 700, #ffeb9d, 42px, 42px);
             }
 
             @media (max-width: 1024px){
-                @include text('Beaufort', 700, #ffea9e, 28px, 28px);
+                @include text('Beaufort', 700, #ffeb9d, 28px, 28px);
             }
         }
 
@@ -230,7 +230,7 @@
         position: relative;
         z-index: 2;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 50px;
         transition: filter .3s ease-in-out;
 
         @media (max-width: 1300px){
@@ -252,7 +252,7 @@
             width: 488px;
             height: 203px;
             position: absolute;
-            top: -61px;
+            top: -57px;
             left: -41px;
             z-index: 1;
             pointer-events: none;

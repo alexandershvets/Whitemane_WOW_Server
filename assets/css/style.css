@@ -287,7 +287,7 @@ section h2 span {
   margin-top: 10px;
   font-family: "Open Sans";
   font-weight: 700;
-  color: #ada183;
+  color: #d9caab;
   font-size: 18px;
   line-height: 24px;
   text-transform: none;
@@ -297,7 +297,7 @@ section h2 span {
   section h2 span {
     font-family: "Open Sans";
     font-weight: 700;
-    color: #ada183;
+    color: #d9caab;
     font-size: 16px;
     line-height: 22px;
   }
@@ -335,7 +335,7 @@ section.features h2 {
 }
 
 section.features h2 span {
-  color: #ada183;
+  color: #d9caab;
 }
 
 section.features:after {
@@ -356,11 +356,11 @@ section.chronicle {
 }
 
 section.chronicle h2 {
-  color: #f0f3d4;
+  color: #f4e9cf;
 }
 
 section.chronicle h2 span {
-  color: #b5c095;
+  color: #d9caab;
 }
 
 section.chronicle:after {
@@ -381,11 +381,11 @@ section.info-1 {
 }
 
 section.info-1 h2 {
-  color: #d8ebf1;
+  color: #f4e9cf;
 }
 
 section.info-1 h2 span {
-  color: #acced8;
+  color: #d9caab;
 }
 
 section.info-1:after {
@@ -410,7 +410,7 @@ section.info-2 h2 {
 }
 
 section.info-2 h2 span {
-  color: #ada183;
+  color: #d9caab;
 }
 
 section.info-2:after {
@@ -451,7 +451,7 @@ section.info-general h2 {
 }
 
 section.info-general h2 span {
-  color: #ada183;
+  color: #9b9174;
 }
 
 section.info-general:after {
@@ -793,7 +793,7 @@ footer {
 .header__info {
   width: 100%;
   padding: 0px calc( ( 100% - 770px ) / 2);
-  margin-top: 60px;
+  margin-top: 1px;
   position: relative;
   z-index: 1;
 }
@@ -814,7 +814,7 @@ footer {
   width: 100%;
   font-family: "Beaufort";
   font-weight: 700;
-  color: #ffea9e;
+  color: #ffeb9d;
   font-size: 56px;
   line-height: 48px;
   text-align: center;
@@ -827,7 +827,7 @@ footer {
   .header__info-title {
     font-family: "Beaufort";
     font-weight: 700;
-    color: #ffea9e;
+    color: #ffeb9d;
     font-size: 42px;
     line-height: 42px;
   }
@@ -837,7 +837,7 @@ footer {
   .header__info-title {
     font-family: "Beaufort";
     font-weight: 700;
-    color: #ffea9e;
+    color: #ffeb9d;
     font-size: 28px;
     line-height: 28px;
   }
@@ -896,7 +896,7 @@ footer {
   position: relative;
   z-index: 2;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 50px;
   -webkit-transition: -webkit-filter .3s ease-in-out;
   transition: -webkit-filter .3s ease-in-out;
   -o-transition: filter .3s ease-in-out;
@@ -928,7 +928,7 @@ footer {
   width: 488px;
   height: 203px;
   position: absolute;
-  top: -61px;
+  top: -57px;
   left: -41px;
   z-index: 1;
   pointer-events: none;
