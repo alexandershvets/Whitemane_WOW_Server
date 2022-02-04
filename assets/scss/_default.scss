@@ -96,7 +96,23 @@ section{
 
     &.features{
         z-index: 5;
-        background: url('../images/bg/section_1_bg.jpg') #1d0e09 top center /cover no-repeat;
+
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background: url('../images/bg/section_1_bg.jpg') #1d0e09 top center /cover no-repeat;
+          @media (max-width: 1024px) {
+            background-position: top left;
+            opacity: 0.4;
+          }
+          @media (max-width: 768px) {
+            background-position: top left 30%;
+          }
+        }
 
         h2{
             color: #f4e9cf;
